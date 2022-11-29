@@ -2,7 +2,7 @@
   import Login from './Login.svelte';
 </script>
 
-<main>
+<main> <!-- <body> 요소의 주 콘텐츠(main content)를 정의할 때 사용-->
   <h1 class="hero">Travel Packing Checklist</h1>
   <Login />
 </main>
@@ -13,7 +13,7 @@
   }
 
   .hero {
-    --height: 7rem;
+    --height: 7rem; /*css 변수 정의 */
 
     background-color: orange;
     color: white;
